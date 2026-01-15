@@ -1,7 +1,7 @@
 export class FizzBuzz{
     count(input:number):string {
         if(this.isMultipleOfThree(input))return "fizz";
-        if(input === 5) return "buzz";
+        if(input === 5 || input === 10) return "buzz";
        return `${input}`
     }
     

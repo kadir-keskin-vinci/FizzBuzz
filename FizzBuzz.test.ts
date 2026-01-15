@@ -37,5 +37,10 @@ let fizzBuzz = new FizzBuzz();
         let actual = fizzBuzz.count(5);
         expect(actual).toBe("buzz");
        })
+
+       it("should return fizz whgen given 6", () =>{
+        let actual = fizzBuzz.count(6);
+        expect(actual).toBe("fizz");
+       })
     });
 });

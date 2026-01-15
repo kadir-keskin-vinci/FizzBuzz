@@ -16,6 +16,11 @@ describe('FizzBuzz', () =>{
             expect(actual).toBe("1");
         });
 
-        
+         it("should return 2 when given 2", () =>{
+            let fizzBuzz = new FizzBuzz();
+            let actual = fizzBuzz.count(2);
+
+            expect(actual).toBe("2");
+        });
     });
 });

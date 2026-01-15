@@ -10,10 +10,12 @@ describe('FizzBuzz', () =>{
             let fizzBuzz = new FizzBuzz();
 
             //Act
-            let actual = fizzBuzz.count();
+            let actual = fizzBuzz.count(1);
 
             //Assert
             expect(actual).toBe("1");
         });
+
+        
     });
 });

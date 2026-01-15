@@ -1,5 +1,5 @@
 export class FizzBuzz{
-    count():string {
+    count(input:number):string {
         return "1";
     }
     

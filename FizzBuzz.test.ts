@@ -22,5 +22,10 @@ describe('FizzBuzz', () =>{
 
             expect(actual).toBe("2");
         });
+        it("should return fizz when given 3", () =>{
+            let fizzBuzz = new FizzBuzz();
+            let actual = fizzBuzz.count(3);
+            expect(actual).toBe("fizz");
+        })
     });
 });
